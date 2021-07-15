@@ -17,25 +17,51 @@
             position : relative;
             top : 25%;
             MARGIN-LEFT:5%;
+            display : flex;
+            justify-content: center;
+            align-items: center;
         }
         h2 {
             font-size : 36px;
         }
         img {
-            display : ;
-            width : 60%;
-            margin-left:22%;
-            transform : translateY(-20%);
-            position : relative;
-            bottom : 40%;
+            width : 70%;
+            transform : translateX(20%)
+        }
+        .left {
+            width : 50%;
+            width : 50%;
+            transform : translateY(-40%) ;
+        }
+        #right {
+            transform : translateY(30%) ;
         }
     </style>
     </head>
     <body>
     <div id="text">
+        <div class="left">
         <p>What's so special?</p>
         <h2>THE GAMES</h2>
-        <img src="rockpaperstrategy-1600.jpg"></img>
+         </div>
+        <div id="right" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="rockpaperstrategy-1600.jpg"></img>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+          </div>
     </div>
     </body>
 </html>

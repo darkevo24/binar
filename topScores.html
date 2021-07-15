@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        * {
+            font-size: 14px;
+            color : white;
+        }
+        body {
+            background : url(top-score-bg.png);
+            background-size: cover;
+            background-size:100% 100%;
+            font-size : 18px;
+            width : 100%;
+            height : 100%;
+            max-height :100% ;
+        }
+        #flex {
+            display: flex;
+            align-items: center;
+            width : 85%;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        #left {
+            text-align: left;
+            width : 50%;
+        }
+        #right {
+            display : flex;
+            height : 100%;
+            width : 50%;
+        }
+        .card {
+            width : 80%;
+            height : 150px;
+            background: rgb(66, 66, 66);
+        }
+        #flex-card {
+            width : 100%;
+            display: flex;
+            flex-direction: column;
+            margin : 0 auto;
+            padding :0 auto;
+            height : 100%;
+            justify-content: center;
+        }
+        #c1 {
+            margin : auto;
+        }
+        #c3 {
+            margin : auto;
+        }
+        #one {
+            width : 70%;
+        }
+        h2 {
+            font-size: 36px;
+            color : black;
+        }
+        button {
+            width : 70%;
+        }
+        #top {
+            display : flex;
+        }
+        img {
+            width : 20%;
+            border-radius: 50%;
+            margin : 3%;
+        }
+        #k {
+            display : flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            width : 50%;
+        }
+        h5 {
+            color : orange;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="flex" class="flex">
+            <div id = "left">
+                <div id="one">
+            <h2 style ="color : black">TOP SCORES</h2>
+            <p style ="color : black">This top score from various games provided on this platform</p>
+            <button type="button" class="btn btn-warning">See More</button>
+            </div>
+            <div id="two">
+
+            </div>
+            </div>
+            <div id = "right">
+                <div id ="flex-card">
+                <div id = "c1" class="card">
+                    <div id="top">
+                        <img src="timo.jpg"/>
+                        <div id="k">
+                    <h5 class="card-title">Evan Lahti</h5>
+                    <p>PC Gamer</p>
+                </div>
+                </div>
+                <div id="bottom">
+                        <p class="card-text">"One of my gaming highlights og the year."</p>
+                    </div>
+                </div>
+                <div id = "c2" class="card">
+                    <div id="top">
+                        <img src="timo.jpg"/>
+                        <div id="k">
+                    <h5 class="card-title">Jada Griffin</h5>
+                    <p>Nerdreactor</p>
+                </div>
+                </div>
+                <div id="bottom">
+                        <p class="card-text">"The next big thing in the world of streaming and survival games."</p>
+                    </div>
+                </div>
+                <div id = "c3" class="card">
+                    <div id="top">
+                        <img src="timo.jpg"/>
+                        <div id="k">
+                    <h5 class="card-title">Aaron Williams</h5>
+                    <p>Uproxx</p>
+                </div>
+                </div>
+                <div id="bottom">
+                        <p class="card-text">"Snoop Dogg Playing The Wildly Entertaining 'SOS' is Ridiculous"</p>
+                    </div>
+                </div>
+                  </div>
+                </div>
+        </div>
+    </body>
+</html>
